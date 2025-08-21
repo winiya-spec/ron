@@ -161,8 +161,147 @@ function App() {
         className="bg-body-tertiary mt-5"
         style={{ width: "100%", padding: "20px 30px", height: "130px", backgroundColor: "#bdc9c5" }}
       >
-        {/* 하단 소셜, 주소, 검색폼 코드 동일 */}
+       <Container
+          className="d-flex justify-content-between align-items-center"
+          style={{ height: "100%" }}
+        >
+          
+          <div
+            style={{
+              display: "flex",
+              gap: "15px",
+              fontSize: "1.3rem",
+              color: "#818181",
+            }}
+          >
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              style={{ color: "inherit" }}
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              style={{ color: "inherit" }}
+            >
+              <FaFacebookF />
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Twitter"
+              style={{ color: "inherit" }}
+            >
+              <FaTwitter />
+            </a>
+            <a
+              href="https://www.youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+              style={{ color: "inherit" }}
+            >
+              <FaYoutube />
+            </a>
+            <a
+              href="https://blog.naver.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Blog"
+              style={{ color: "inherit" }}
+            >
+              <FaBloggerB />
+            </a>
+          </div>
+
+          <div
+            style={{
+              color: "#a1a1a1",
+              fontSize: "0.9rem",
+              textAlign: "center",
+              lineHeight: "1.3",
+            }}
+          >
+            Ely House, London
+            <br />
+            37 Dover Street | London W1S 4NJ
+            <br />
+            +44 (0) 203 813 8400 |{" "}
+            <a
+              href="mailto:london@ropac.net"
+              style={{ color: "#a1a1a1", textDecoration: "none" }}
+            >
+              london@ropac.net
+            </a>
+            <div
+              style={{
+                marginTop: "8px",
+                color: "#a1a1a1",
+                fontSize: "0.8rem",
+                fontWeight: "bold",
+              }}
+            >
+              &copy; Thaddaeus Ropac | All rights reserved.
+            </div>
+          </div>
+
+          <Form
+            className="d-flex"
+            style={{
+              maxWidth: "300px",
+              width: "100%",
+              backgroundColor: "#2e2e2e",
+              borderRadius: "6px",
+              padding: "6px 12px",
+              boxShadow: "0 0 8px rgba(0,0,0,0.3)",
+            }}
+          >
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+              style={{
+                backgroundColor: "#3a3a3a",
+                border: "none",
+                color: "#ccc",
+                fontSize: "0.95rem",
+                boxShadow: "none",
+                height: "30px",
+              }}
+            />
+            <Button
+              variant="dark"
+              style={{
+                backgroundColor: "#5a5a5a",
+                border: "none",
+                color: "#ddd",
+                fontWeight: "500",
+                fontSize: "0.95rem",
+                height: "30px",
+                padding: "0 10px",
+                transition: "background-color 0.3s ease",
+              }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.backgroundColor = "#444")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.backgroundColor = "#5a5a5a")
+              }
+            >
+              Search
+            </Button>
+          </Form>
+        </Container>
       </Navbar>
+
 
       <BackToTop />
       <ScrollDownButton />
