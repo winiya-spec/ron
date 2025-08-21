@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.slider {
+  height:1000px; 
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+.board-container {
+  font-size: 0.9rem;
+  color: #333;
+  background-color: #fff;
+}
+
+.board-container h4,
+.board-container h5 {
+  font-weight: 600;
+  color: #000;
+}
+
+.board-container .table thead th {
+  background-color: #212529;
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.board-container .table tbody td {
+  background-color: #f9f9f9;
+  color: #444;
+  font-size: 0.85rem;
+}
+
+.board-container button {
+  font-size: 0.8rem !important;
+  border-radius: 6px !important;
+}
+
+
+/* 게시판 버튼 공통 스타일 */
+.board-container button {
+    font-size: 0.8rem !important;
+    border-radius: 6px !important;
+    padding: 6px 14px !important;
+    background-color: transparent !important; 
+    border-width: 1px !important;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #333 !important; 
+}
+
+/* 게시글 읽기 버튼 */
+.board-container .btn-outline-primary {
+    border-color: #555 !important;
+    color: #555 !important;
+}
+.board-container .btn-outline-primary:hover {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+/* 수정 버튼 */
+.board-container .btn-outline-success {
+    border-color: #777 !important;
+    color: #777 !important;
+}
+.board-container .btn-outline-success:hover {
+    background-color: #777 !important;
+    color: #fff !important;
+}
+
+/* 삭제 버튼 */
+.board-container .btn-outline-danger {
+    border-color: #999 !important;
+    color: #999 !important;
+}
+.board-container .btn-outline-danger:hover {
+    background-color: #999 !important;
+    color: #fff !important;
+}
+
+/* 문의글 작성 버튼 */
+.board-container .btn-primary {
+    border-color: #212529 !important;
+    color: #555 !important;
+}
+.board-container .btn-primary:hover {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+
+/* 버튼 크기 줄이기 */
+.board-container button {
+    font-size: 0.75rem !important; 
+    padding: 4px 10px !important;  
+    border-radius: 5px !important;
+}
+
+/* 테이블 셀 크기 줄이기 */
+.board-container table td,
+.board-container table th {
+    padding: 8px 10px !important;  
+    font-size: 0.85rem !important;  
+}
+
+/* 폼 입력창 크기 줄이기 */
+.board-container input.form-control,
+.board-container textarea.form-control {
+    font-size: 0.85rem !important;
+    padding: 6px 10px !important;
+}
+
+
+/* 수정 폼 목록으로 버튼 */
+.board-container .edit-list-btn {
+    font-size: 0.75rem !important;
+    padding: 4px 10px !important;
+    border-radius: 5px !important;
+    background-color: transparent !important;
+    border: 1px solid #555 !important;  
+    color: #555 !important;            
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.board-container .edit-list-btn:hover {
+    background-color: #555 !important;  
+    color: #fff !important;            
+}
+
+
+
+
+/* 오류 메시지 모던 스타일 */
+.board-container .error-alert {
+    font-size: 0.8rem !important;     
+    background-color: #212529 !important; 
+    color: #eee !important;            
+    border: 1px solid #555 !important; 
+    padding: 8px 12px !important;      
+    border-radius: 5px !important;    
+}
+
+
+
+
+.custom-input input,
+.custom-input textarea {
+    border: 1px solid #ccc; 
+    border-radius: 5px;      
+    outline: none;          
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.custom-input input:focus,
+.custom-input textarea:focus {
+    border-color: #888; 
+    box-shadow: 0 0 5px rgba(136, 136, 136, 0.3); /* 은은한 그림자 */
+}
+
+
+

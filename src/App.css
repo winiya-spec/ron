@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* 아코디언 */
+
+.custom-accordion .accordion-button {
+  justify-content: center !important; 
+  text-align: center !important;
+  padding: 40px 40px;
+  padding-left: 50px;
+
+ 
+}
+
+.custom-accordion .accordion-button {
+  background-color: #303030;
+  color: #e6e6e6;
+  font-weight: 400;
+  font-size: 17px;
+  border-bottom: 1px solid #dee2e6;
+  transition: background-color 0.3s ease;
+  line-height: 1.5em;
+   justify-content: center; 
+  text-align: center;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+  background-color: #f1f3f5;
+  color: #000;
+  box-shadow: none;
+  
+}
+
+
+.custom-accordion .accordion-body strong {
+  font-weight: 700; }
+
+.custom-accordion .accordion-button:hover {
+  background-color: #f0ecec;
+  color: #000;
+}
+
+
+.custom-accordion .accordion-button:focus {
+  border-color: #ced4da;  
+  box-shadow: none;       
+  outline: none;
+}
+
+
+.custom-accordion .accordion-button::after {
+  filter: invert(90%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+
+.custom-accordion .accordion-item {
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+  border-radius: 0;
+}
+
+.custom-accordion .accordion-body {
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: #ffffff;
+  color: #495057;
+  padding: 20px;
+  padding: 100px;
+}
+
+.custom-accordion .accordion-header {
+  font-size: 18px;
+}
+
+
+.custom-accordion {
+  margin-bottom: 100px; 
+margin-top: 50px;
+}
+
+/* 캐러셀 */
+.carousel-caption.centered {
+  top: 50% !important;
+  left: 50% !important;
+  bottom: auto !important;
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  width: 100%; 
+}
+.carousel-caption.centered h3 { font-size:40px;  }
+
+
+
+.image-hover-effect {
+  transition: all 0.7s ease-in-out;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.image-hover-effect:hover {
+  transform: scale(1.01) translateY(-5px);
+  filter: brightness(1.15);
+ 
+}
+
+video::-internal-media-controls-overlay-cast-button,
+video::-webkit-media-controls-pip-button {
+  display: none !important;
+}
+
+
+
+
+.card-box {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+              filter 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  will-change: transform;
+  border-radius: 12px;
+}
+
+.card-box:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  filter: brightness(1.02);
+  z-index: 10;
+}
+
+
+
+
+.card-box_modal {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+              filter 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  will-change: transform;
+  border-radius: 12px;
+}
+
+.card-box_modal:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  filter: brightness(1.02);
+  z-index: 10;
+}
+
+
+
