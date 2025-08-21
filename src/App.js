@@ -77,21 +77,21 @@ function App() {
                 <div className="row g-3" data-aos="fade-up">
                   <div className="col-12 col-sm-6 col-md-4 card-box">
                     <CardComponent
-                      imgSrc={process.env.PUBLIC_URL + "/img/artwork1-1.jpg"}
+                      imgSrc={"img/artwork1-1.jpg"}
                       title="#En Garde (2023)"
                       description="세 마리의 검은 개를 거대한 크기로 형상화한 이 작품은..."
                     />
                   </div>
                   <div className="col-12 col-sm-6 col-md-4 card-box">
                     <CardComponent
-                      imgSrc={process.env.PUBLIC_URL + "/img/artwork2-1.jpg"}
+                      imgSrc={"img/artwork2-1.jpg"}
                       title="#Dark Place (2018)"
                       description="깊은 어둠 속에 떠오른 얼굴의 실루엣은..."
                     />
                   </div>
                   <div className="col-12 col-sm-6 col-md-4 card-box">
                     <CardComponent
-                      imgSrc={process.env.PUBLIC_URL + "/img/artwork3-1.jpg"}
+                      imgSrc={"img/artwork3-1.jpg"}
                       title="#In Bed (2005)"
                       description="거대한 침대 위에 누운 여성의 모습은 극사실적인 디테일로..."
                     />
@@ -111,7 +111,7 @@ function App() {
                 <div className="row" data-aos="fade-up">
                   {artwork.map((ele, i) => (
                     <Products
-                      artwork={{ ...ele, imgUrl: process.env.PUBLIC_URL + "/" + ele.imgUrl }}
+                      artwork={{ ...ele, imgUrl: ele.imgUrl }}
                       i={i}
                       key={ele.id}
                     />
@@ -131,7 +131,7 @@ function App() {
                 <div className="row" data-aos="fade-up">
                   {artwork1.map((ele, i) => (
                     <Products1
-                      artwork1={{ ...ele, imgUrl: process.env.PUBLIC_URL + "/" + ele.imgUrl }}
+                      artwork1={{ ...ele, imgUrl: ele.imgUrl }}
                       i={i}
                       key={ele.id}
                     />
