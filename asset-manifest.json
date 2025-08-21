@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ron/static/css/main.174adcc8.css",
-    "main.js": "/ron/static/js/main.192c9f15.js",
+    "main.js": "/ron/static/js/main.8b15a57e.js",
     "static/js/453.bf16b361.chunk.js": "/ron/static/js/453.bf16b361.chunk.js",
     "index.html": "/ron/index.html",
     "main.174adcc8.css.map": "/ron/static/css/main.174adcc8.css.map",
-    "main.192c9f15.js.map": "/ron/static/js/main.192c9f15.js.map",
+    "main.8b15a57e.js.map": "/ron/static/js/main.8b15a57e.js.map",
     "453.bf16b361.chunk.js.map": "/ron/static/js/453.bf16b361.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.174adcc8.css",
-    "static/js/main.192c9f15.js"
+    "static/js/main.8b15a57e.js"
   ]
 }
