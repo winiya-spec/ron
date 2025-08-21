@@ -3,7 +3,7 @@ let data = [
     id: 1,
     name: "Georg Baselitz",
     title: "Ein Bein von Manet aus Paris",
-    imgUrl: process.env.PUBLIC_URL + "/img/artwork1.jpg",
+    imgUrl: "img/artwork1.jpg",
     content: "26 April—26 July 2025 Paris Pantin",
   },
   {
