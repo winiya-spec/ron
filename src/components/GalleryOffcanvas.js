@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import { Button, Offcanvas } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
-function GalleryOffcanvas() {
+const GalleryOffcanvas = () => {
   const [show, setShow] = useState(false);
+  const navigate = useNavigate();  // useNavigate 훅을 사용하여 navigate 함수 얻기
+
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
@@ -42,6 +45,7 @@ function GalleryOffcanvas() {
             About 'Thaddaeus Ropac'
           </Offcanvas.Title>
         </Offcanvas.Header>
+
         <Offcanvas.Body
           style={{ fontsize: "14px", padding: "50px", textAlign: "left" }}
         >
@@ -79,24 +83,27 @@ function GalleryOffcanvas() {
               style={{ maxWidth: "100%", height: "auto", marginTop: "30px" }}
             />
           </div>
-          <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <Button
-  style={{
-    backgroundColor: "#6e6e6eff",
-    color: "white",
-    border: "none",
-    padding: "5px 20px",
-    fontSize: "12px",
-  }}
-  onClick={() => window.location.href = "/product"} 
->
-  작품 보러가기
-</Button>
-</div>
+
+          {/* 작품 보러가기 버튼 */}
+          <Button
+            style={{
+              backgroundColor: "#6e6e6eff",
+              color: "white",
+              border: "none",
+              marginTop: "40px",
+              marginBottom: "20px",
+              padding: "5px 20px",
+              margin: "15px 60px",
+              fontsize: "12px",
+            }}
+            onClick={() => navigate("/product")}  // 버튼 클릭 시 "/detail" 페이지로 이동
+          >
+            작품 보러가기
+          </Button>
         </Offcanvas.Body>
       </Offcanvas>
     </>
   );
-}
+};
 
 export default GalleryOffcanvas;

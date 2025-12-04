@@ -4,7 +4,7 @@ let data = [
     name: "Georg Baselitz",
     title: "Ein Bein von Manet aus Paris",
     imgUrl: "img/artwork1.jpg",
-    content: "26 April—26 July 2025 Paris Pantin",
+    content: "26 April—26 July 2025 <br>Paris Pantin                                         ",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ let data = [
     name: "Zadie Xa",
     title: "Rough hands weave a knife",
     imgUrl: "img/artwork3.jpg",
-    content: "12 April—26 May 2024 <br></br> Paris Marais",
+    content: "12 April—26 May 2024 <br> Paris Marais",
   },
   {
     id: 4,
@@ -34,35 +34,35 @@ let data = [
     name: "Richard Deacon",
     title: "New Works",
     imgUrl: "img/artwork5.jpg",
-    content: "13 January—6 April 2024 Paris Marais",
+    content: "13 January—6 April 2024 <br>Paris Marais",
   },
   {
     id: 6,
     name: "Georg Baselitz",
     title: "Egle",
     imgUrl: "img/artwork6.jpg",
-    content: "3 September—9 November 2024 Seoul Fort Hill",
+    content: "3 September—9 November 2024<br> Seoul Fort Hill",
   },
   {
     id: 7,
     name: "Georg Baselitz",
     title: "adler barfuß",
     imgUrl: "img/artwork7.jpg",
-    content: "18 May—20 July 2024 Salzburg Villa Kast",
+    content: "18 May—20 July 2024 <br>Salzburg Villa Kast",
   },
   {
     id: 8,
     name: "Daniel Richter",
     title: "Mit elben Birnen",
     imgUrl: "img/artwork8.jpg",
-    content: "25 July—27 September 2025 Salzburg Villa Kast",
+    content: "25 July—27 September 2025 <br>Salzburg Villa Kast",
   },
   {
     id: 9,
     name: "Megan Rooney",
     title: "Yellow Yellow Blue",
     imgUrl: "img/artwork9.jpg",
-    content: "12 June—2 August 2025 Ely House, London",
+    content: "12 June—2 August 2025 <br>Ely House, London",
   },
 ];
 

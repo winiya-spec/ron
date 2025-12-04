@@ -126,7 +126,7 @@ function App() {
               <img
                 src={process.env.PUBLIC_URL + "/img/ropa.jpg"}
                 alt="설명"
-                style={{ width: "100%", height: "300px", marginTop: "20px", objectFit: "cover" }}
+                style={{ width: "100%", height: "300px", marginTop: "50px", objectFit: "cover" }}
                 data-aos="fade-up"
               />
               <Title tit="작가 소개" subtit="Meet the Artist" />
